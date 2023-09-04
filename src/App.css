@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+.profile-img{
+    width: 18rem;
+    height: 8rem;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.profile-img-round{
+    width: 80px;
+    height: 80px; 
+    position: absolute;
+    top: 80px;
+    left: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.page-img{
+    width: 50px;
+    height: 55px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.profile-postcard-img{
+    width: 60px;
+    height: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.postcard-img{
+    width:70px;
+    height:70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.posted-img{
+    width: 95%;
+    height: 200px;
+}
+
+.not-page-img{
+    width: 50px;
+    height: 55px;
+}
+
+.add-page-img{
+    width: 95%;
+    height: 150px;
+}
+
+.profileMain-img{
+    height: 350px;
+    position: relative;
+}
+
+.profileMain-img-round{
+    width: 230px;
+    height: 250px;
+    
+    position: absolute;
+    top: 230px;
+    left: 70px;
+}
+
+.profileMainImgRow{
+    margin-bottom: 5rem;
+}
+
+.cbody{
+    margin-left: 330px;
+}
+
+.memories-img-round{
+    width: 90%;
+    height: 70%;
 }
